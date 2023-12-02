@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>zavier</title>
+        <link rel="stylesheet" href="styles/index.css">
+        <script>
+            // display command on terminal
+            function displayText(arr)
+            {
+                let items = "";
+                for(let i = 0; i < arr.length - 1; i++)
+                {
+                    document.write(arr[i]);
+                }
+                return items;
+            }
+
+            // take cmd as input and print array list
+            function commands(cmd)
+            {
+                switch(cmd)
+                {
+                    case "help":
+                        help;
+                        break;
+                    case "abtme":
+                        abtme;
+                        break;
+                    case "projects":
+                        projects;
+                        break;
+                    case "socials":
+                        socials;
+                        break;
+                    case "clear":
+                        clear;
+                        break;
+
+                }
+            }
+
+        </script>
+
+    </head>
+    <body onload = "DOM();">
+        welcome to my website
+        <p>for a list of available commands, type "/help"</p>
+        <p class="cliPrompt">zavierand-webbrowser:user$ </p>
+        <textarea id="cmd"></textarea>
+    </body>
+</html>

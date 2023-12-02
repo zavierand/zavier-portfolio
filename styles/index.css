@@ -1,0 +1,25 @@
+
+/* font for website */
+@font-face
+{
+    font-family: "VictorMono";
+    src: url(VictorMonoAll/WOFF/VictorMono-Regular.woff);
+}
+
+/* textarea styling */
+textarea {
+    background-color: #373737;
+    border: 1px solid #373737;
+    color: #88ec17;
+    padding: 8px;
+    font-family: "Monaco";
+}
+
+/* body styling */
+body
+{
+    font-family: "Monaco";
+    color: #88ec17;
+    background: #373737;
+}
+
